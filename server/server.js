@@ -30,12 +30,12 @@ async function fetchTokenDetails() {
     // Fetch total supply of the token
     const totalSupply = await tokenContract.totalSupply();
     const decimals = await tokenContract.decimals();
-    console.log(`Total Supply: ${ethers.formatUnits(totalSupply, decimals)}`); // Assuming 18 decimal places
+    console.log(`Total Supply: ${ethers.formatUnits(totalSupply, decimals)} for USDT`); // Assuming 18 decimal places
 
     // Fetch balance of a specific address
     const balance = await tokenContract.balanceOf(walletAddress);
     console.log(
-      `Balance of ${walletAddress}: ${ethers.formatUnits(balance, decimals)}`
+      `Balance of ${walletAddress} in USDT: ${ethers.formatUnits(balance, decimals)}`
     ); // Assuming 18 decimal places
   } catch (error) {
     console.error(`Failed to fetch token details: ${error}`);
