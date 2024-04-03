@@ -9,6 +9,6 @@
   "author": "Patrick Obermeier",
   "license": "ISC",
   "dependencies": {
-    "mjml": "^4.6.3"
+    "mjml": "^4.15.3"
   }
 }
