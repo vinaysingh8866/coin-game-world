@@ -19,7 +19,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^3.4.3",
     "sass": "^1.50.0",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "styled-components": "^5.1.1",
     "sweetalert2": "^11.4.8",
     "zustand": "^4.0.0-rc.0"
